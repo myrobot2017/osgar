@@ -17,7 +17,8 @@ import sys
 import os
 
 # Default camera URL
-DEFAULT_URL = "http://192.168.1.6/image?res=full&x0=0&y0=0&x1=2048&y1=1536&quality=12&doublescan=0&ver=HTTP/1.1" # full resolution ~240kB
+DEFAULT_URL = "http://192.168.1.6/image?res=half&quality=12&doublescan=0" # half resolution
+#DEFAULT_URL = "http://192.168.1.6/image?res=full&x0=0&y0=0&x1=2048&y1=1536&quality=12&doublescan=0&ver=HTTP/1.1" # full resolution ~240kB
 DEFAULT_URL_MONO = "http://192.168.1.6/image?channel=mono"
 URL_DAY_NIGHT = "http://192.168.1.6/set?daynight=dual" # auto|day|night|dual
 
